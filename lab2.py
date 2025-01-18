@@ -18,7 +18,7 @@ try:
         print("Nice weapon, friend!")
 
     if hero_weapon != "Fist":
-        print("Thank goodness you didn't roll the Fist...")
+        print("Thank goodness you didn't roll the Fist..")
 
 except IndexError as e:
     print(f"Error: {e}")
